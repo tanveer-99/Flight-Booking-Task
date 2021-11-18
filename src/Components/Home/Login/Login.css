@@ -1,0 +1,11 @@
+.login-container {
+    padding: 50px 50px;
+    border-radius: 20px;
+    border: 1px solid #d7e0eb;
+}
+.login-section {
+    height: 100vh;
+}
+.login-section h3 {
+    margin-bottom: 20px;
+}

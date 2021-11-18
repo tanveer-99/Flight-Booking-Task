@@ -1,0 +1,42 @@
+
+.home {
+    transition: all 0.5s;
+}
+.sidebar-full {
+    height: 100vh;
+    border-right : 1px solid #D8E2EE;
+    transition: all 0.5s;
+    padding-top: 15px;
+    transition: all 0.5s;
+
+
+}
+.sidebar-short {
+    height: 100vh;
+    border-right : 1px solid #D8E2EE;
+    width: 70px;
+    padding-top: 15px;
+    transition: all 0.5s;
+}
+
+.bars {
+    font-size: 1.3rem;
+    cursor: pointer;
+    padding: 5px 8px 5px 12px;
+    border-radius: 5px;
+}
+
+.bars:hover {
+    background-color: #d7e0eb;
+}
+
+
+@media (min-width:400px) and (max-width: 728px) {
+    .sidebar-hide {
+        display: none;
+        transition: all 0.5s;
+    }
+
+} 
+
+

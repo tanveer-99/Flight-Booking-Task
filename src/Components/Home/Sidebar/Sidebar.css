@@ -1,0 +1,41 @@
+.sidebar-part {
+    border-bottom: 1px solid #D8E2EE;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.sidebar-section {
+    padding-left:  5px;
+    padding-top: 15px;
+}
+.sidebar-icon {
+    font-size: 1rem;
+    margin-right: 15px;
+}
+.sidebar-elements {
+    margin-bottom: 3px;
+    padding-left : 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 35px;
+}
+.sidebar-elements:hover {
+    background-color: #d7e0eb;
+}
+
+.menu-text {
+    transition: all 0.5s;
+    
+}
+.menu-text-hide {
+    display: none;
+    transition: all 0.5s;
+
+}
+
+
+@media (min-width:400px) and (max-width: 728px) {
+    
+} 

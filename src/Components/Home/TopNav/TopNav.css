@@ -1,0 +1,40 @@
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #5D6E82;
+}
+.topNav-section {
+    padding-top: 18px;
+    padding-right: 10px;
+}
+.business {
+    font-size: 14px;
+    color: #5D6E82;
+    font-weight: 600;
+    border-right:  3px solid #D8E2EE;
+    margin-right: 15px;
+    padding-right: 60px;
+    position: relative;
+    cursor: pointer;
+}
+.business::after {
+    content: 'New';
+    position: absolute;
+    top: 0;
+    right: 10px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 12px;
+    background-color: #5D6E82;
+    border-radius: 20px;
+    padding: 2px 6px;
+    cursor: pointer;
+
+}
+.trip {
+    font-size: 14px;
+    color: #5D6E82;
+    font-weight: 600;
+    margin-right: 10px;
+    cursor: pointer;
+}
