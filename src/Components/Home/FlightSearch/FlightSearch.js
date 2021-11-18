@@ -13,7 +13,7 @@ const FlightSearch = () => {
 
     const [calenderOn, setCalenderOn] = useState(false);
     const [startedDate, setStartedDate] = useState(new Date().toDateString());
-    const [endDate, setEndDate] = useState(new Date().toDateString());
+    const [endDate] = useState(new Date().toDateString());
 
     const handleCalenderOn = () => {
         if(calenderOn) {
@@ -30,11 +30,11 @@ const FlightSearch = () => {
         setCalenderOn(false);
     }
 
-    const handleEndDateChange = (date) => {
-        const newDate = date.toDateString();
-        setEndDate(newDate);
-        setCalenderOn(false);
-    }
+    // const handleEndDateChange = (date) => {
+    //     const newDate = date.toDateString();
+    //     setEndDate(newDate);
+    //     setCalenderOn(false);
+    // }
     return (
         <div className="flight-search-section">
 
