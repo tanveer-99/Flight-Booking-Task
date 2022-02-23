@@ -25,7 +25,7 @@ const TopNav = () => {
         <div className="topNav-section">
             <div className="d-flex justify-content-between">
                 <div>
-                    <h1 className="logo">Logo</h1>
+                    <h1 className="logo">Tanvir</h1>
                 </div>
                 <div className="d-flex">
                     <p className="business">Business</p>
